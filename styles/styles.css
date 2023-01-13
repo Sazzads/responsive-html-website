@@ -1,0 +1,402 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+.header-scetion {
+    width: 100%;
+    height: 669px;
+    background-image: url(../images/donation1.jpg);
+    background-size: cover;
+    opacity: 0.7;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.header-containt h2 {
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 79px;
+}
+
+.header-containt p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+
+.main-btn {
+    padding: 16px 12px;
+    margin-top: 20px;
+    height: 56px;
+    width: 160px;
+    background: #FF5959;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    color: #FFFFFF;
+    font-size: 20px;
+
+}
+
+/* <!-- donate section start --> */
+.donate-section,
+.donet-plan-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    margin: 100px 0;
+}
+
+.donate-section-containt h2,
+.donate-plan-containt h2 {
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 54px;
+    text-align: center;
+    color: #121212;
+    margin-bottom: 20px;
+}
+
+.donate-section-containt p,
+.donate-plan-containt p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    color: #707070;
+    margin-bottom: 50px;
+}
+
+.all-amount-box {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+    margin-bottom: 50px;
+}
+
+.amount-box {
+    width: 135px;
+    height: 123px;
+    background: #FAFAFA;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.amount-box:hover {
+    background: #FFEEEE;
+    border: 2px solid #FF5959;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.donate-amount-form form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.donate-amount-form form input[type="text"] {
+    border: none;
+    border-bottom: 1px solid #DADADA;
+    text-align: center;
+}
+
+/* <!-- donate section end --> */
+
+/* donet plan start  */
+
+.donet-plan-boxs {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+    margin-bottom: 50px;
+}
+
+.donet-plan-box {
+    display: flex;
+    flex-direction: column;
+    width: 360px;
+    height: 352px;
+    border-radius: 5px;
+    padding: 55px 23px;
+}
+
+.donet-plan-box:hover {
+    border: 2px solid blue;
+}
+
+#donet-plan-box1 {
+    background: rgba(79, 157, 166, 0.1);
+}
+
+#donet-plan-box2 {
+    background: rgba(255, 89, 89, 0.1);
+}
+
+#donet-plan-box3 {
+    background: rgba(207, 194, 159, 0.747)
+}
+
+.donet-plan-box img {
+    text-align: left;
+    width: 58.13px;
+    height: 49.77px;
+
+}
+
+.donet-plan-box h4 {
+    text-align: left;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    color: #121212;
+    margin: 16px 0;
+}
+
+.donet-plan-box p {
+    text-align: left;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #707070;
+}
+
+/* donet plan end  */
+/* Their lives depend start */
+
+.their-lives-section {
+    display: flex;
+    justify-items: center;
+    justify-content: space-around;
+
+}
+
+.their-lives-section-containt {
+    width: 493px;
+    height: 374px;
+    padding: 0 30px;
+
+}
+
+.their-lives-section-containt h3 {
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 54px;
+    margin-top: 20px;
+    color: #121212;
+}
+
+.their-lives-section-containt p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    margin: 20px 0;
+
+
+
+    color: #707070;
+}
+
+.their-lives-section-img {
+
+    width: 450px;
+    height: 450px;
+
+}
+
+.their-lives-section-img img {
+    width: 450px;
+    height: 450px;
+
+}
+
+
+.secondary-btn {
+    padding: 16px 12px;
+    margin-top: 20px;
+    width: 230px;
+    height: 56px;
+    background: #FF5959;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    color: #FFFFFF;
+    font-size: 20px;
+}
+
+.depend {
+    margin-top: 100px;
+
+}
+
+.get-updates {
+    display: grid;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 100px;
+    text-align: center;
+}
+
+.get-updates-containt {
+    padding: 20px;
+
+}
+
+.get-updates-containt h3 {
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 54px;
+    text-align: center;
+    color: #121212;
+
+}
+
+.get-updates-containt p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    color: #707070;
+    margin: 20 0 0 50px;
+}
+
+.get-updates-form {
+    width: 809px;
+    height: 200px;
+    background: #FFF4D6;
+    display: grid;
+    align-items: center;
+
+
+}
+
+
+.get-updates-form form input[type="text"] {
+    width: 275px;
+    height: 48px;
+    background: #D9D9D9;
+    border-radius: 5px 0px 0px 5px;
+    padding: 10px;
+    border: none;
+}
+
+.get-updates-form form input[type="submit"] {
+    width: 157px;
+    height: 48px;
+    background: #FF5959;
+    border-radius: 0px 5px 5px 0px;
+    padding: 10px;
+    border: none;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+footer {
+    display: grid;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 100px;
+    height: 177px;
+    background: #0B0D17;
+}
+
+footer h3 {
+    text-align: center;
+    font-family: 'Lobster';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 44px;
+    letter-spacing: 0.5px;
+    color: #FF5959;
+}
+
+footer p {
+    text-align: center;
+
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    font-feature-settings: 'liga' off;
+    color: #D9DBE1;
+}
+
+/* Their lives depend end */
+/* for small screen  */
+@media screen and (max-width:576px) {
+
+    .header-containt h2,
+    p,
+    .donate-section-containt p,
+    h2,
+    .donate-plan-containt p,
+    h2,
+    .their-lives-section-containt h3,
+    p {
+        padding-top: 20px;
+    }
+
+    .all-amount-box,
+    .donet-plan-boxs {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .donet-plan-box {
+        padding: 0;
+    }
+
+    .their-lives-section {
+        display: flex;
+        flex-direction: column-reverse;
+
+    }
+
+    .their-lives-section-img img {
+        padding: 20px;
+        justify-items: center;
+
+    }
+
+    .depend {
+        margin-top: 200px;
+        flex-direction: column;
+
+    }
+
+    .their-lives-section-containt a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+
+    }
+
+    .get-updates {
+        margin-top: 200px;
+    }
+
+    .get-updates-form {
+        width: 100%;
+    }
+}
